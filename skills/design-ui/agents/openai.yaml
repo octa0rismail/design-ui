@@ -1,0 +1,9 @@
+interface:
+  display_name: "Design UI"
+  short_description: "Define, build, render, and refine distinctive UI"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  default_prompt: "Use $design-ui to define a product-specific design direction, build the interface, and refine it from rendered evidence."
+
+policy:
+  allow_implicit_invocation: true
