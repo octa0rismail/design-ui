@@ -42,3 +42,7 @@ Use $design-ui to render and refine the current dashboard at desktop and mobile 
 ## Repository layout
 
 The installable skill is at [`skills/design-ui`](skills/design-ui).
+
+## License
+
+[MIT](LICENSE)

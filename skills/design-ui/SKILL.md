@@ -1,6 +1,7 @@
 ---
 name: design-ui
 description: Define, implement, render, and refine intentional product UI from brief to verified interface. Use when creating, redesigning, styling, or substantially changing a website, web app, mobile app, landing page, dashboard, application screen, frontend component, or visual state in React, HTML/CSS, Vue, Svelte, Flutter, native UI, or another framework. Explore differentiated creative directions when the visual system is unresolved, create or update DESIGN_SYSTEM.md, implement against that contract, and require rendered desktop/mobile evidence plus review-and-revision before handoff. Prevent generic AI-looking output through product-specific rationale, accessible tokens, deliberate geometry and surfaces, responsive composition, realistic states, and evidence-based visual judgment.
+license: MIT
 ---
 
 # Design UI
