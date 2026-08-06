@@ -1,6 +1,6 @@
 # design-ui
 
-[![skills.sh](https://skills.sh/b/octa0rismail/design-ui)](https://skills.sh/octa0rismail/design-ui)
+[![skills.sh](https://skills.sh/b/octa0rismail/design-ui)](https://skills.sh/octa0rismail/design-ui/design-ui)
 
 An end-to-end agent skill for defining, implementing, rendering, and refining distinctive product interfaces.
 
