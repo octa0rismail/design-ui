@@ -1,6 +1,6 @@
 ---
 name: design-ui
-description: Define, implement, render, and refine distinctive product UI. Use for creative-direction exploration, DESIGN_SYSTEM.md creation or updates, substantial UI design or implementation changes, and rendered visual reviews across web and native interfaces.
+description: Define, implement, render, and refine distinctive product UI. Use for creative-direction exploration, DESIGN_SYSTEM.md creation or updates, substantial UI design or implementation changes, and rendered visual reviews across web and native interfaces. Includes optional GSAP and Motion guidance for purposeful web animation, preferring CSS/native animation for simpler interactions and avoiding unnecessary dependencies or effects.
 license: MIT
 ---
 
