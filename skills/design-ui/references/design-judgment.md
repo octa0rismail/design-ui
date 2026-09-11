@@ -48,12 +48,26 @@ Choose compact, comfortable, or spacious density from task frequency, reading le
 - Make control styling reflect importance and behavior. Do not turn every action into the same pill or filled button.
 - Check whether labels, icons, and decorative marks feel authored for the product or imported from a generic component library.
 
-## Motion and creative risk
+## Creative risk
 
-- Use motion to explain change, continuity, causality, or spatial relationship; omit it when it is merely ornamental.
 - If every decision is the safest familiar option, increase creative risk on one high-leverage axis that supports the product.
 - If more than two axes compete for attention, reduce novelty and strengthen the hierarchy.
 - Prefer one memorable systemic idea over many unrelated flourishes.
+
+## Choose motion tools proportionately
+
+Use motion to explain change, continuity, causality, or spatial relationship; omit it when it is merely ornamental.
+
+For web UI, choose the simplest tool that serves the interaction and fits the existing stack:
+
+- Use CSS transitions/keyframes or native browser animation APIs for simple hover, focus, disclosure, and feedback effects. For native apps, use the platform's animation primitives.
+- Use [Motion](https://motion.dev/) for component state transitions, enter/exit behavior, layout continuity, springs, or gestures when its framework integration reduces custom code. Consult its [documentation](https://motion.dev/docs) for the target framework and installed version.
+- Use [GSAP](https://gsap.com/) for coordinated multi-element timelines, precise playback control, or scroll/SVG sequences when that orchestration earns the dependency. Start with its [timeline documentation](https://gsap.com/docs/v3/GSAP/Timeline/); load plugins only for features actually used.
+- Reuse an existing suitable animation library before adding another. These capabilities overlap: do not install both by default. If both serve distinct needs, explain the split and keep them from controlling the same element's animated properties.
+
+Keep motion brief, interruptible, and tied to feedback or continuity. Avoid blanket entrance effects, persistent decorative loops, scroll hijacking, and delays before content or controls become usable. Favor transforms and opacity where appropriate, and account for bundle cost and mobile performance.
+
+Respect `prefers-reduced-motion` with instant state changes or subdued alternatives that preserve meaning. Use [Motion's accessibility controls](https://motion.dev/docs/react-accessibility) or [GSAP's matchMedia support](https://gsap.com/docs/v3/GSAP/gsap.matchMedia%28%29/) where applicable. Scope animations to their components and clean up timelines, scroll triggers, and listeners on teardown; ensure interruption or skipped animation leaves content usable.
 
 ## Judge the rendered whole
 

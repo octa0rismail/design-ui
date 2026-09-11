@@ -35,6 +35,7 @@ Use $design-ui to render and refine the current dashboard at desktop and mobile 
 - Product-specific creative direction before styling
 - A binding, accessible `DESIGN_SYSTEM.md` when the system is unresolved
 - Intentional hierarchy, geometry, surfaces, typography, imagery, and motion
+- Proportionate use of [GSAP](https://gsap.com/) or [Motion](https://motion.dev/) when helpful, with CSS/native animation for simpler interactions
 - Responsive and state-complete implementation
 - At least one render → review → revise → render cycle
 - Evidence-backed handoff with inspected routes, viewports, and states

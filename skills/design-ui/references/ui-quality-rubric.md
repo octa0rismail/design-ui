@@ -12,20 +12,9 @@ Use this rubric during visual review. Apply it as a diagnostic aid, not as a rec
 
 Ask whether the composition, copy, visual language, and details could be moved unchanged to an unrelated app. If so, find the weakest generic choice and replace it with a decision grounded in the product, audience, or task.
 
-Common template cues need a reason, not automatic removal:
+Use the divergence protocol's [default-prior guidance](design-divergence.md#suppress-default-model-priors) to identify template cues that need product evidence, then apply its [fingerprint check](design-divergence.md#run-the-fingerprint-check) for severity and structural revision criteria. These cues need a reason, not automatic removal.
 
-- warm cream with dark brown and orange or amber, paired with editorial serif typography and rounded cards
-- purple, indigo, blue, or magenta glow gradients on dark surfaces
-- oversized headline plus a generic gradient or abstract blob
-- repeated frosted panels, pills, and shadowed cards with no hierarchy
-- arbitrary bright accent colors or ornamental gradients
-- stock-like imagery, vague slogans, and implausible metrics
-- an uninterrupted sequence of same-shaped content blocks
-- decoration that competes with the primary task
-
-Favor a clear editorial hierarchy, real content, intentional density, and one or two distinctive details with a purpose.
-
-Check six axes: palette, typography, composition, surface language, imagery, and motion. If three or more reproduce the same recognizable AI-brand or generated-template formula without product evidence, mark the finding high severity and revise at least two structural axes.
+Favor a clear editorial hierarchy, real content, intentional density, and one or two distinctive details with a purpose. Flag stock-like imagery, vague slogans, implausible metrics, arbitrary accents, repeated same-shaped blocks, and decoration that competes with the primary task.
 
 ## 3. Composition and hierarchy
 
@@ -54,6 +43,7 @@ Check six axes: palette, typography, composition, surface language, imagery, and
 
 - Check the narrow layout as a composition in its own right.
 - Test long labels, dense data, empty content, loading, error, selected, hover, focus, and disabled states where relevant.
+- For animated interactions, test normal and reduced-motion settings, repeated or interrupted input, and component teardown; confirm content stays usable and motion does not delay the primary task or cause visible jank.
 - Flag clipped touch targets, horizontal overflow, collapsed hierarchy, or inaccessible focus behavior as high or critical.
 
 ## 7. Revision order

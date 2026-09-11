@@ -15,7 +15,24 @@ Do not derive the direction from the model's favorite palette or a fashionable r
 
 ## Explore direction candidates
 
-For a greenfield design-system request, follow the 10-direction selection format in `SKILL.md`. For an implementation-only request that legitimately skips that phase and still lacks firm visual tokens, create three concise candidates before implementation. Give each candidate:
+### Full direction exploration
+
+For a new or substantially revised design system, follow the count and presentation format in [Phase 1](../SKILL.md#phase-1-choose-a-creative-direction). The directions should feel as though independent strong studios answered the same brief.
+
+Build a private contrast map across light/dark, warm/cool, muted/vivid, quiet/energetic, geometric/organic, minimal/expressive, editorial/utilitarian, soft/sharp, spacious/dense, and contemporary/heritage-aware.
+
+- Include meaningful range across posture, temperature, chroma, density, typography, geometry, composition, imagery, materiality, and motion unless brand constraints rule it out.
+- Include at least three brave but usable directions.
+- Apply the dominant-hue limits in [palette provenance](#establish-palette-provenance).
+- For an open brief, do not make orange, amber, copper, or rust the primary identity, and do not make a purple, indigo, blue, or magenta gradient the main identity, unless product or brand evidence specifically supports it.
+- Make every pair differ on at least five axes among color architecture, typography, geometry, density, composition, imagery, materiality, iconography, and motion.
+- Reject sibling directions and hue-only variations before presenting them.
+- Do not default to familiar AI-brand aesthetics, generic SaaS layouts, or conservative luxury merely because they are safe.
+- Ground every option in the product, audience, task, content, environment, or supplied brand evidence.
+
+### Focused implementation alternatives
+
+For an implementation-only request that legitimately skips Phase 1 and still lacks firm visual tokens, create three concise candidates before implementation. Give each candidate:
 
 - a concept sentence tied to product evidence
 - a palette family and the source of each major color role
@@ -65,4 +82,4 @@ Make one or two aspects memorable—composition, type treatment, imagery, materi
 
 Before implementation and again after rendering, ignore the logo and replace the product copy mentally with generic text. Compare the result across palette, typography, composition, surfaces, imagery, and motion.
 
-If the interface still resembles a recognizable AI-company site or generic generated template on three or more axes, treat it as a high-severity issue. Change at least two structural axes before continuing; a minor hue adjustment does not pass.
+If the interface still resembles a recognizable AI-company site or generic generated template on three or more axes without product evidence, treat it as a high-severity issue. Change at least two structural axes before continuing; a minor hue adjustment does not pass. For review-only work, report the finding and recommended structural changes without editing the interface.

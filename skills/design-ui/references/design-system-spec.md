@@ -182,6 +182,8 @@ Never rely on color, position, motion, or an icon alone to communicate meaning.
 
 Use motion to explain change, preserve context, or confirm action.
 
+When the web implementation stack is known, record the motion tool and why it is needed using [the motion-tool guidance](design-judgment.md#choose-motion-tools-proportionately). CSS/native animation is a valid choice; defer library selection when the target platform is unresolved.
+
 ### 14. Technical contract
 
 - Token hierarchy and theme architecture
