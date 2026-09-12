@@ -49,6 +49,7 @@ Adapt subsections to the product. When a required item is irrelevant, mark it `N
 - Emotional goal and trust posture
 - Domain conventions retained and intentionally challenged
 - Reference qualities without copying a named product
+- When external research informed the direction, include the [reference evidence summary](reference-research.md#record-and-synthesize): source links, adopted principles, adaptations, and unverified flow/state gaps
 - Anti-goals describing what the product must not feel like
 - Selected direction name, spirit, rationale, and approved changes
 

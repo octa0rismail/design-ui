@@ -6,6 +6,8 @@ An end-to-end agent skill for defining, implementing, rendering, and refining di
 
 It combines creative-direction exploration and design-system definition with an evidence-based frontend iteration loop. The skill starts at the right phase for the request: greenfield direction, design-system work, implementation, or rendered UI review.
 
+Reference research starts with [Pinterest](https://www.pinterest.com/) for visual discovery and checks original product sources for interaction evidence. No paid reference library is required. The [research workflow](skills/design-ui/references/reference-research.md) covers source attribution, diverse shortlists, flow/state coverage, and fallbacks when access is limited.
+
 ## Install
 
 ```bash
@@ -28,6 +30,10 @@ Use $design-ui with direction: playful retro to define the system, then implemen
 
 ```text
 Use $design-ui to render and refine the current dashboard at desktop and mobile sizes.
+```
+
+```text
+Use $design-ui to research Pinterest references for a furniture marketplace, verify browsing and filtering patterns against original product sources, then propose creative directions.
 ```
 
 ## What it enforces

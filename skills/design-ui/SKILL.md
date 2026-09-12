@@ -1,6 +1,6 @@
 ---
 name: design-ui
-description: Define, implement, render, and refine distinctive product UI. Use for creative-direction exploration, DESIGN_SYSTEM.md creation or updates, substantial UI design or implementation changes, and rendered visual reviews across web and native interfaces. Includes optional GSAP and Motion guidance for purposeful web animation, preferring CSS/native animation for simpler interactions and avoiding unnecessary dependencies or effects.
+description: Define, implement, render, and refine distinctive product UI. Use for creative-direction exploration, DESIGN_SYSTEM.md creation or updates, substantial UI design or implementation changes, and rendered visual reviews across web and native interfaces. Includes Pinterest-led reference research and optional GSAP and Motion guidance for purposeful web animation, preferring CSS/native animation for simpler interactions and avoiding unnecessary dependencies or effects.
 license: MIT
 ---
 
@@ -19,6 +19,8 @@ Take UI work from product brief to verified render. Treat direction, design-syst
    - Implementation request with a selected target and direction: proceed through implementation and rendered iteration.
    - Review-only request: inspect the rendered interface and report findings; do not modify files unless the user requests changes.
 4. Resolve low-risk ambiguity with a stated assumption. Ask at most three concise questions only when answers would materially change the product direction.
+
+When external references are needed or requested, read [references/reference-research.md](references/reference-research.md) completely before researching. Use Pinterest as the default visual-discovery source, supplement it with original product evidence for flows and states, and preserve the user's supplied references and approved direction. Do not make new research a prerequisite for a small change or a review with sufficient existing evidence.
 
 ## Phase 1: Choose a creative direction
 

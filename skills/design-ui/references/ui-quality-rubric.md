@@ -6,6 +6,7 @@ Use this rubric during visual review. Apply it as a diagnostic aid, not as a rec
 
 - Confirm every visible requirement, action, state, data point, asset, and content constraint against the ledger.
 - Confirm the primary task is understandable and executable without relying on decorative context.
+- When external references informed the design, use the [research acceptance check](reference-research.md#research-acceptance-check) to verify source claims and track unobserved behavior as an assumption; do not let a Pin's missing states become missing implementation requirements.
 - Flag a missing requirement, wrong interaction, broken state, or unsupported viewport as critical or high.
 
 ## 2. Product specificity
